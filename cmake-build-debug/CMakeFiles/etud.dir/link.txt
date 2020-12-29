@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/etud.dir/main.cpp.o CMakeFiles/etud.dir/src/models/Student.cpp.o  -o etud 
