@@ -94,12 +94,12 @@ clean: CMakeFiles/etud.dir/clean
 CMakeFiles/etud.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/etud.dir/build.make CMakeFiles/etud.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/etud.dir/build.make CMakeFiles/etud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target etud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target etud"
 .PHONY : CMakeFiles/etud.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/etud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/etud.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/etud.dir/rule

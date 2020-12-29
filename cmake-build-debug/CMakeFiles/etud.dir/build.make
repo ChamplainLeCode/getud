@@ -90,32 +90,62 @@ CMakeFiles/etud.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etud.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champlainlecode/CLionProjects/etud/main.cpp -o CMakeFiles/etud.dir/main.cpp.s
 
-CMakeFiles/etud.dir/src/models/Student.cpp.o: CMakeFiles/etud.dir/flags.make
-CMakeFiles/etud.dir/src/models/Student.cpp.o: src/models/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/etud.dir/src/models/Student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/etud.dir/src/models/Student.cpp.o -c /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Student.cpp
+CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: CMakeFiles/etud.dir/flags.make
+CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: src/models/impl/Etudiant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o -c /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Etudiant.cpp
 
-CMakeFiles/etud.dir/src/models/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/etud.dir/src/models/Student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Student.cpp > CMakeFiles/etud.dir/src/models/Student.cpp.i
+CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Etudiant.cpp > CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.i
 
-CMakeFiles/etud.dir/src/models/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etud.dir/src/models/Student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Student.cpp -o CMakeFiles/etud.dir/src/models/Student.cpp.s
+CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Etudiant.cpp -o CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.s
+
+CMakeFiles/etud.dir/src/models/impl/Date.cpp.o: CMakeFiles/etud.dir/flags.make
+CMakeFiles/etud.dir/src/models/impl/Date.cpp.o: src/models/impl/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/etud.dir/src/models/impl/Date.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/etud.dir/src/models/impl/Date.cpp.o -c /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Date.cpp
+
+CMakeFiles/etud.dir/src/models/impl/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/etud.dir/src/models/impl/Date.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Date.cpp > CMakeFiles/etud.dir/src/models/impl/Date.cpp.i
+
+CMakeFiles/etud.dir/src/models/impl/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etud.dir/src/models/impl/Date.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Date.cpp -o CMakeFiles/etud.dir/src/models/impl/Date.cpp.s
+
+CMakeFiles/etud.dir/src/models/impl/operators.cpp.o: CMakeFiles/etud.dir/flags.make
+CMakeFiles/etud.dir/src/models/impl/operators.cpp.o: src/models/impl/operators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/etud.dir/src/models/impl/operators.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/etud.dir/src/models/impl/operators.cpp.o -c /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/operators.cpp
+
+CMakeFiles/etud.dir/src/models/impl/operators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/etud.dir/src/models/impl/operators.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/operators.cpp > CMakeFiles/etud.dir/src/models/impl/operators.cpp.i
+
+CMakeFiles/etud.dir/src/models/impl/operators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etud.dir/src/models/impl/operators.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/operators.cpp -o CMakeFiles/etud.dir/src/models/impl/operators.cpp.s
 
 # Object files for target etud
 etud_OBJECTS = \
 "CMakeFiles/etud.dir/main.cpp.o" \
-"CMakeFiles/etud.dir/src/models/Student.cpp.o"
+"CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o" \
+"CMakeFiles/etud.dir/src/models/impl/Date.cpp.o" \
+"CMakeFiles/etud.dir/src/models/impl/operators.cpp.o"
 
 # External object files for target etud
 etud_EXTERNAL_OBJECTS =
 
 etud: CMakeFiles/etud.dir/main.cpp.o
-etud: CMakeFiles/etud.dir/src/models/Student.cpp.o
+etud: CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o
+etud: CMakeFiles/etud.dir/src/models/impl/Date.cpp.o
+etud: CMakeFiles/etud.dir/src/models/impl/operators.cpp.o
 etud: CMakeFiles/etud.dir/build.make
 etud: CMakeFiles/etud.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable etud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/champlainlecode/CLionProjects/etud/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable etud"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/etud.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

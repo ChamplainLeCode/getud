@@ -84,10 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Student.cpp">
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Date.h">
 			<Option target="etud"/>
 		</Unit>
-		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Student.h">
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Etud.h">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Etudiant.h">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/enums/constants.h">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Date.cpp">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Etudiant.cpp">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/operators.cpp">
+			<Option target="etud"/>
+		</Unit>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/operators.h">
 			<Option target="etud"/>
 		</Unit>
 		<Unit filename="/home/champlainlecode/CLionProjects/etud/main.cpp">
