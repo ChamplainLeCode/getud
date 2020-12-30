@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/config/io.h">
+			<Option target="etud"/>
+		</Unit>
 		<Unit filename="/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Date.h">
 			<Option target="etud"/>
 		</Unit>

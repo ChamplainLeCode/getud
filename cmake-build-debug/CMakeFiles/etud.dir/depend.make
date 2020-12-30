@@ -11,6 +11,7 @@ CMakeFiles/etud.dir/main.cpp.o: ../main.cpp
 CMakeFiles/etud.dir/src/models/impl/Date.cpp.o: src/models/Date.h
 CMakeFiles/etud.dir/src/models/impl/Date.cpp.o: src/models/impl/Date.cpp
 
+CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: src/config/io.h
 CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: src/models/Date.h
 CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: src/models/Etud.h
 CMakeFiles/etud.dir/src/models/impl/Etudiant.cpp.o: src/models/Etudiant.h

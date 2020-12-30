@@ -10,29 +10,37 @@
 using namespace std;
 
 class Date {
-    protected:
-        int jour, mois, annee;
+protected:
+    int jour, mois, annee;
 
-    public:
-        Date(int jour, int mois, int annee): jour(jour), mois(mois), annee(annee){}
+public:
+    Date(int jour, int mois, int annee) : jour(jour), mois(mois), annee(annee) {}
 
-    public:
-        int getJour();
-        int getMois();
-        int getAnnee();
+    Date() {};
 
-    public:
-        Date* setJour(int jour);
-        Date* setMois(int mois);
-        Date* setAnnee(int annee);
+public:
+    int getJour();
 
-        bool equals(Date* date);
+    int getMois();
 
-        bool operator == (Date* const date){
-            return date != nullptr && this->equals(date);
-        }
+    int getAnnee();
+
+public:
+    Date *setJour(int jour);
+
+    Date *setMois(int mois);
+
+    Date *setAnnee(int annee);
+
+    bool equals(Date *date);
+
+    bool operator==(Date *const date) {
+        return date != nullptr && this->equals(date);
+    }
+
+    void write(std::fstream *io, bool canClose = false);
+
+    void read(std::fstream io, bool canClose = false);
+
 };
-
-
-
 #endif //ETUD_DATE_H

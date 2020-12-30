@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/config/io.h
+
 /home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Date.h
 iostream
 -
@@ -30,27 +32,13 @@ Etud.h
 iostream
 -
 
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/operators.cpp
-../operators.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/operators.h
-
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/operators.h
+/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/impl/Etudiant.cpp
+../Etudiant.h
+/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Etudiant.h
+../../config/io.h
+/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/config/io.h
+fstream
+-
 iostream
 -
-Date.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Date.h
-Etudiant.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Etudiant.h
-
-/home/champlainlecode/CLionProjects/etud/main.cpp
-iostream
--
-cmake-build-debug/src/models/enums/constants.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/enums/constants.h
-cmake-build-debug/src/models/Etudiant.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/Etudiant.h
-list
--
-cmake-build-debug/src/models/operators.h
-/home/champlainlecode/CLionProjects/etud/cmake-build-debug/src/models/operators.h
 

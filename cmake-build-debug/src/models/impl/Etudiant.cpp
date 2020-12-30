@@ -3,8 +3,12 @@
 //
 
 #include "../Etudiant.h"
+#include "../../config/io.h"
 
+#include <fstream>
+#include <iostream>
 
+    const string Etudiant::db = "etudiant.db";
 
     string Etudiant::getMatricule(){
         return matricule;
@@ -20,10 +24,10 @@
         return lieuNaissance;
     }
     Date* Etudiant::getDateNaissance(){
-        return dateNaissance;
+        return &dateNaissance;
     }
     Date* Etudiant::getDateObtentionBac(){
-        return dateObtentionBac;
+        return &dateObtentionBac;
     }
     Sexe  Etudiant::getSex(){
         return this->sex;
@@ -56,11 +60,11 @@
         return this;
     }
     Etudiant* Etudiant::setDateNaissance(Date* date){
-        this->dateNaissance = date;
+        this->dateNaissance = *date;
         return this;
     }
     Etudiant* Etudiant::setDateObtentionBac(Date* date){
-        this->dateObtentionBac = date;
+        this->dateObtentionBac = *date;
         return this;
     }
     Etudiant* Etudiant::setSex(Sexe sex){
@@ -103,4 +107,71 @@
     string Etudiant::getSexToString(){
         if (this->sex == MASCULIN)   return "Masculin";
         return "Feminin";
+    }
+
+    Etudiant* Etudiant::addParcours(Etud parcours) {
+        this->parcours.push_back(parcours);
+        return this;
+    }
+
+    void Etudiant::write(){
+        std::fstream io;
+
+        io.open(Etudiant::db, std::ios::binary | std::ios::out);
+        if(!io)
+        {
+            std::cerr<<"io error <"<<Etudiant::db<<">\n";
+            exit(1);
+        }
+//        this->getNom();
+//        this->getPrenom();
+//        this->getLieuNaissance();
+//        this->getMatricule();
+//        this->getMoyenne();
+//        this->getMention();
+//        this->getSex();
+//        this->getDateObtentionBac();
+//        this->getDateNaissance();
+//        this->getParcours();
+
+        int size = this->nom.size();
+        io << this->getNom();
+        char sl[100];
+        std::fstream ii;
+        ii.open(Etudiant::db, std::ios::binary | std::ios::in);
+
+        ii >> sl;
+        std::cout << "**" << sl << "**" << std::endl;
+//        io.write((char*)&size, sizeof (int));
+        //io.write((char*)this->nom.data(), size);
+//
+//        size = this->prenom.size();
+//        io.write((char*)&size, sizeof (size_t));
+//        io.write((char*)this->prenom.data(), size);
+//
+//        size = this->lieuNaissance.size();
+//        io.write((char*)&size, sizeof (size_t));
+//        io.write((char*)this->lieuNaissance.data(), size);
+//
+//        size = this->matricule.size();
+//        io.write((char*)&size, sizeof (size_t));
+//        io.write((char*)this->matricule.data(), size);
+//
+//        size = sizeof (float);
+//        float moy = this->getMoyenne();
+//        io.write((char*)&moy, size);
+//
+//        size = sizeof (Mention);
+//        io.write((char*)this->mention, size);
+//
+//        size = sizeof (Sexe);
+//        io.write((char*)this->sex, size);
+
+//        this->dateNaissance.write(&io);
+//        this->dateObtentionBac.write(&io);
+
+        //io.write(this->prenom.data() , size );
+        Etudiant e;
+        //({1,2},{3,4},{5,6},{"name","type"}); // something new
+        io.close();
     }
